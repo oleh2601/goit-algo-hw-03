@@ -17,7 +17,7 @@ def get_days_from_today(date):
     
     #handling wrong format of input as per task
     except ValueError as e:
-        return f"Invalid date format {e}"
+        return "Invalid date format"
 
 
 
@@ -26,4 +26,7 @@ date= '2020-10-09'
 
 #using the function 
 result = get_days_from_today(date)
+
+#output test
+#print(result)
 
